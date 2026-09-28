@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-12">
                     <center>
-                        <h2>Our Fetures</h2>
+                        <h2>Our Fetures- </h2>
                         <p><b>Our three primary feture</b></p>
                     </center>
                 </div>
@@ -33,7 +33,7 @@
                 </div>
                 <div class="col-md-4">
                     <center>
-                        <h4>Search Book</h4>
+                        <h4>Search Book- </h4>
                         <p>
                             <b>Search books in system defines digital trans formation of the books
                             syatem defines digital trans formation of the books nventry for digital trans formation</b>
@@ -42,7 +42,7 @@
                 </div>
                 <div class="col-md-4">
                     <center>
-                        <h4>Default List</h4>
+                        <h4>Default List- </h4>
                         <p>
                             <b>Default List is for digital trans formation of the books system
                             defines digital trans formation of the books nventry for digital trans formation</b>
@@ -71,7 +71,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <center>
-                        <h4>Sign up</h4>
+                        <h4>Sign up- </h4>
                         <p>
                             <b>Digital books inventry for digital trans formation of the books system 
                         defines digital trans formation of the books nventry for digital trans formation</b>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="col-md-4">
                     <center>
-                        <h4>Search Book</h4>
+                        <h4>Search Book- </h4>
                         <p>
                             <b>Search books in system defines digital trans formation of the books
                         syatem defines digital trans formation of the books nventry for digital trans formation</b>
@@ -89,7 +89,7 @@
                 </div>
                 <div class="col-md-4">
                     <center>
-                        <h4>Visit Us</h4>
+                        <h4>Visit Us- </h4>
                         <p>
                             <b>Default List is for digital trans formation of the books system
                         defines digital trans formation of the books nventry for digital trans formation</b>
