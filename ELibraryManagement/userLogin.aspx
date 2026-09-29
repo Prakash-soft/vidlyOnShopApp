@@ -7,16 +7,53 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 mx-auto">
-                <div class="card" >
+                <div class="card">
                     <div class="card-body">
-                        <div class="col">
-                            <center>
-                                <img src="imgs/userlogin.png" width="100"/>
-                            </center>
+                        <div class="row">
+                            <div class="col">
+                                <center>
+                                    <img src="imgs/userlogin.png" width="180" />
+                                </center>
+                            </div>
                         </div>
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="row">
+                            <div class="col">
+                                <center>
+                                    <h3>Member Login</h3>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <center>
+                                    <hr>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label>Member ID</label>
+                                <div class="form-group">
+                                    <asp:TextBox class="form-control" ID="TextBox1" runat="server"
+                                        placeholder="memberID"></asp:TextBox>
+                                </div>
+                                <label>Member Password</label>
+                                <div class="form-group">
+                                    <asp:TextBox class="form-control" ID="TextBox2" runat="server"
+                                        placeholder="member ID"></asp:TextBox>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <center>
+                                    <hr>
+                                </center>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
