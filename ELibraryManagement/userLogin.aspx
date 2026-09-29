@@ -42,24 +42,32 @@
                                     <asp:TextBox class="form-control" ID="TextBox2" runat="server"
                                         placeholder="Password" TextMode="Password"></asp:TextBox>
                                 </div>
-                                <br />
-                                <div class="form-group d-grid gap-2">
+
+                                <div class="form-group d-grid gap-2 mt-3">
                                     <asp:Button class="btn btn-primary btn-lg" ID="Button1" runat="server"
                                         Text="Login" />
                                 </div>
-                                <br />
+                                <%--<br>
                                 <div class="form-group d-grid gap-2">
-                                    <input class="btn btn-info btn-lg" id="Button2" type="button" value="Sign up" />
-                                   
+                                    <a href="userSignUp.aspx">
+                                        <input class="btn btn-info btn-lg btn-block" id="Button2" 
+                                            type="button" value="Sign up" />
+                                    </a>
+                                </div>--%>
+                                <div class="form-group d-grid gap-2 mt-3 mb-3">
+                                    <a href="userSignUp.aspx" class="btn btn-info btn-lg">Sign up
+                                    </a>
                                 </div>
+
                             </div>
                         </div>
 
                     </div>
                 </div>
 
-
-                <a href="homePage.aspx"><< Back to Home Page</a>
+                <br>
+                <a href="homePage.aspx"><< Back to Home</a><br>
+                <br>
             </div>
         </div>
     </div>

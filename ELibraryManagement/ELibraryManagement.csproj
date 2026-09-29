@@ -5881,7 +5881,8 @@
     <Content Include="fontawesome\svgs\solid\z.svg" />
     <Content Include="fontawesome\svgs\solid\zap.svg" />
     <Content Include="homePage.aspx" />
-    <Content Include="imgs\adminUserLogin.jpg" />
+    <Content Include="imgs\adminLogin.jpg" />
+    <Content Include="imgs\adminLoginImage.jpg" />
     <Content Include="imgs\book1.png" />
     <Content Include="imgs\homeBookLibrary1.jpg" />
     <Content Include="imgs\homeBookLibrary3.jpg" />
@@ -5889,6 +5890,7 @@
     <Content Include="userLogin.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="userSignUp.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="adminLogin.aspx.cs">
@@ -5925,6 +5927,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userSignUp.aspx.cs">
+      <DependentUpon>userSignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userSignUp.aspx.designer.cs">
+      <DependentUpon>userSignUp.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
