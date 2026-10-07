@@ -173,32 +173,33 @@
                                 </center>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <center>
-                                <h3>Your issued Book</h3>
-                                <asp:Label class="badge rounded-pill bg-info text-dark"
-                                    ID="Label2" runat="server" Text="Info about book due date">
 
-                                </asp:Label>
-                            </center>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <center>
-                                <hr>
-                            </center>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                                <asp:GridView class="table table-striped table-bordered" ID="GridView1" 
-                                    runat="server"></asp:GridView>
-                        </div>
-                    </div>
+                        <div class="row">
+                            <div class="col">
+                                <center>
+                                    <h3>Your issued Book</h3>
+                                    <asp:Label class="badge rounded-pill bg-info text-dark"
+                                        ID="Label2" runat="server" Text="Info about book due date">
 
+                                    </asp:Label>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <center>
+                                    <hr>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <asp:GridView class="table table-striped table-bordered" ID="GridView1"
+                                    runat="server">
+                                </asp:GridView>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

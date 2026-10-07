@@ -5883,15 +5883,19 @@
     <Content Include="homePage.aspx" />
     <Content Include="imgs\adminLogin.jpg" />
     <Content Include="imgs\adminLoginImage.jpg" />
+    <Content Include="imgs\author.jpg" />
     <Content Include="imgs\book1.png" />
     <Content Include="imgs\homeBookLibrary1.jpg" />
     <Content Include="imgs\homeBookLibrary3.jpg" />
+    <Content Include="imgs\Publisher.png" />
     <Content Include="imgs\userlogin.png" />
     <Content Include="userLogin.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="userSignUp.aspx" />
     <Content Include="userProfile.aspx" />
+    <Content Include="adminAuthorManagement.aspx" />
+    <Content Include="adminPublisherManagement.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="adminLogin.aspx.cs">
@@ -5942,6 +5946,20 @@
     </Compile>
     <Compile Include="userProfile.aspx.designer.cs">
       <DependentUpon>userProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminAuthorManagement.aspx.cs">
+      <DependentUpon>adminAuthorManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminAuthorManagement.aspx.designer.cs">
+      <DependentUpon>adminAuthorManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminPublisherManagement.aspx.cs">
+      <DependentUpon>adminPublisherManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminPublisherManagement.aspx.designer.cs">
+      <DependentUpon>adminPublisherManagement.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
