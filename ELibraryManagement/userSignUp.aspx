@@ -68,32 +68,41 @@
                             <div class="col-md-4">
                                 <label>State</label>
                                 <div class="form-group">
-                                    <asp:TextBox class="form-control" ID="TextBox7" runat="server"
-                                        placeholder="member ID"></asp:TextBox>
+                                    <asp:DropDownList class="form-control" ID="DropDownList1"
+                                        runat="server">
+                                        <asp:ListItem Text="Select" Value="select" />
+                                        <asp:ListItem Text="Assam" Value="18" />
+                                        <asp:ListItem Text="Paschimbanga" Value="19" />
+                                        <asp:ListItem Text="Bihar" Value="12" />
+                                        <asp:ListItem Text="UttarPradesh" Value="11" />
+                                        <asp:ListItem Text="Maharastra" Value="06" />
+                                    </asp:DropDownList>
+                                    <!--<asp:TextBox class="form-control" ID="TextBox7" runat="server"
+                                        placeholder="member ID"></asp:TextBox>-->
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <label>City</label>
                                 <div class="form-group">
                                     <asp:TextBox class="form-control" ID="TextBox8" runat="server"
-                                        placeholder="member ID"></asp:TextBox>
+                                        placeholder="City"></asp:TextBox>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <label>PIN</label>
                                 <div class="form-group">
                                     <asp:TextBox class="form-control" ID="TextBox9" runat="server"
-                                        placeholder="member ID" TextMode="Number"></asp:TextBox>
+                                        placeholder="PIN" TextMode="Number"></asp:TextBox>
                                 </div>
                             </div>
                         </div>
 
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <label>Full Address</label>
                                 <div class="form-group">
                                     <asp:TextBox class="form-control" ID="TextBox10" runat="server"
-                                        placeholder="member ID"></asp:TextBox>
+                                        placeholder="Address details" TextMode="MultiLine"></asp:TextBox>
                                 </div>
                             </div>
                         </div>
@@ -102,6 +111,7 @@
                             <div class="col">
                                 <center>
                                     <hr>
+                                    <span class="badge rounded-pill bg-info">Login Credentials</span>
                                 </center>
                             </div>
                         </div>
@@ -130,15 +140,23 @@
                             </div>
                         </div>
 
+                        <div class="row">
+                            <div class="form-group d-grid gap-2 mt-3">
+                                <asp:Button class="btn btn-success btn-lg" ID="Button1" runat="server"
+                                    Text="Sign Up" />
+                            </div>
+                        </div>
+
 
                     </div>
 
                 </div>
-
+                <br>
+                <a href="homePage.aspx"><< Back to Home</a><br>
+                <br>
             </div>
-            <br>
-            <a href="homePage.aspx"><< Back to Home</a><br>
-            <br>
+
         </div>
     </div>
+
 </asp:Content>

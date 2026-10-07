@@ -5891,6 +5891,7 @@
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="userSignUp.aspx" />
+    <Content Include="userProfile.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="adminLogin.aspx.cs">
@@ -5934,6 +5935,13 @@
     </Compile>
     <Compile Include="userSignUp.aspx.designer.cs">
       <DependentUpon>userSignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userProfile.aspx.cs">
+      <DependentUpon>userProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userProfile.aspx.designer.cs">
+      <DependentUpon>userProfile.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
