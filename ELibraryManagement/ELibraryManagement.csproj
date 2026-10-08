@@ -5885,6 +5885,7 @@
     <Content Include="imgs\adminLoginImage.jpg" />
     <Content Include="imgs\author.jpg" />
     <Content Include="imgs\book1.png" />
+    <Content Include="imgs\generalUser.png" />
     <Content Include="imgs\homeBookLibrary1.jpg" />
     <Content Include="imgs\homeBookLibrary3.jpg" />
     <Content Include="imgs\Publisher.png" />
@@ -5896,6 +5897,8 @@
     <Content Include="userProfile.aspx" />
     <Content Include="adminAuthorManagement.aspx" />
     <Content Include="adminPublisherManagement.aspx" />
+    <Content Include="adminBookIssuing.aspx" />
+    <Content Include="adminMemberManagement.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="adminLogin.aspx.cs">
@@ -5960,6 +5963,20 @@
     </Compile>
     <Compile Include="adminPublisherManagement.aspx.designer.cs">
       <DependentUpon>adminPublisherManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminBookIssuing.aspx.cs">
+      <DependentUpon>adminBookIssuing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminBookIssuing.aspx.designer.cs">
+      <DependentUpon>adminBookIssuing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminMemberManagement.aspx.cs">
+      <DependentUpon>adminMemberManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminMemberManagement.aspx.designer.cs">
+      <DependentUpon>adminMemberManagement.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

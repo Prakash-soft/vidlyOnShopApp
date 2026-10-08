@@ -58,19 +58,19 @@
                         <div class="row">
                             <div class="col-4 mx-auto">
                                 <div class="form-group d-grid">
-                                    <asp:Button class="btn btn-success btn-block btn-lg" ID="Button1" runat="server"
+                                    <asp:Button class="btn btn-success btn-block" ID="Button1" runat="server"
                                         Text="Add" />
                                 </div>
                             </div>
                             <div class="col-4 mx-auto">
                                 <div class="form-group d-grid">
-                                    <asp:Button class="btn btn-info btn-block btn-lg" ID="Button3" runat="server"
+                                    <asp:Button class="btn btn-info btn-block" ID="Button3" runat="server"
                                         Text="Update" />
                                 </div>
                         </div>
                         <div class="col-4 mx-auto">
                             <div class="form-group d-grid">
-                                <asp:Button class="btn btn-danger btn-block btn-lg" ID="Button4" runat="server"
+                                <asp:Button class="btn btn-danger btn-block" ID="Button4" runat="server"
                                     Text="Delete" />
                             </div>
                         </div>
