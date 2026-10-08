@@ -19,7 +19,7 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <h3>Your Profile</h3>
+                                    <h4>Your Profile</h4>
                                     <span>Account Status - </span>
                                     <asp:Label class="badge rounded-pill bg-info text-dark"
                                         ID="Label1" runat="server" Text="Your Status">
@@ -177,7 +177,7 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <h3>Your issued Book</h3>
+                                    <h4>Your issued Book</h4>
                                     <asp:Label class="badge rounded-pill bg-info text-dark"
                                         ID="Label2" runat="server" Text="Info about book due date">
 

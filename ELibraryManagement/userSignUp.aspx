@@ -19,7 +19,7 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <h3>User SignUp</h3>
+                                    <h4>User SignUp</h4>
                                 </center>
                             </div>
                         </div>

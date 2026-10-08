@@ -12,7 +12,7 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <h3>Book Issuing</h3>
+                                    <h4>Book Issuing</h4>
                                 </center>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <h3>Issued Book List</h3>
+                                    <h4>Issued Book List</h4>
                                 </center>
                             </div>
                         </div>

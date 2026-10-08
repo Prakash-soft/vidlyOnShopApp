@@ -12,7 +12,7 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <h3>Publisher Details</h3>
+                                    <h4>Publisher Details</h4>
                                 </center>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <h3>Publish List</h3>
+                                    <h4>Publish List</h4>
 
                                 </center>
                             </div>
