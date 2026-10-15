@@ -35,7 +35,7 @@
                                 <label>Member ID</label>
                                 <div class="form-group">
                                     <asp:TextBox class="form-control" ID="TextBox1" runat="server"
-                                        placeholder="member ID"></asp:TextBox>
+                                        placeholder="member ID" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
                                 </div>
                                 <label>Member Password</label>
                                 <div class="form-group">
@@ -45,7 +45,7 @@
 
                                 <div class="form-group d-grid gap-2 mt-3">
                                     <asp:Button class="btn btn-primary btn-lg" ID="Button1" runat="server"
-                                        Text="Login" />
+                                        Text="Login" OnClick="Button1_Click" />
                                 </div>
                                 <%--<br>
                                 <div class="form-group d-grid gap-2">

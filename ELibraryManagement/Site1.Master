@@ -44,7 +44,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="homePage.aspx">Home</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#">About Us</a>
@@ -69,7 +69,7 @@
                         </li>
                         <li class="nav-item active">
                             <asp:LinkButton class="nav-link" ID="LinkButton4"
-                                runat="server" Visible="False">Logout</asp:LinkButton>
+                                runat="server" Visible="False" OnClick="LinkButton4_Click">Logout</asp:LinkButton>
                         </li>
                         <li class="nav-item active">
                             <asp:LinkButton class="nav-link" ID="LinkButton5"
@@ -102,19 +102,19 @@
                                 runat="server" OnClick="LinkButton6_Click">Admin Login</asp:LinkButton>
                             &nbsp;  
                             <asp:LinkButton class="footerlinks" ID="LinkButton8"
-                                runat="server" OnClick="LinkButton8_Click">Author Management</asp:LinkButton>
+                                runat="server" Visible="False" OnClick="LinkButton8_Click">Author Management</asp:LinkButton>
                             &nbsp;
                             <asp:LinkButton class="footerlinks" ID="LinkButton9"
-                                runat="server" OnClick="LinkButton9_Click">Publisher Management</asp:LinkButton>
+                                runat="server" Visible="False" OnClick="LinkButton9_Click">Publisher Management</asp:LinkButton>
                             &nbsp;
                             <asp:LinkButton class="footerlinks" ID="LinkButton10"
-                                runat="server" OnClick="LinkButton10_Click">Book Inventry</asp:LinkButton>
+                                runat="server" Visible="False" OnClick="LinkButton10_Click">Book Inventry</asp:LinkButton>
                             &nbsp;
                             <asp:LinkButton class="footerlinks" ID="LinkButton11"
-                                runat="server" OnClick="LinkButton11_Click">Book Issuing</asp:LinkButton>
+                                runat="server" Visible="False" OnClick="LinkButton11_Click">Book Issuing</asp:LinkButton>
                             &nbsp;
                             <asp:LinkButton class="footerlinks" ID="LinkButton12"
-                                runat="server" OnClick="LinkButton12_Click">Member Management</asp:LinkButton>
+                                runat="server" Visible="False" OnClick="LinkButton12_Click">Member Management</asp:LinkButton>
                             &nbsp;
                         </p>
                     </div>

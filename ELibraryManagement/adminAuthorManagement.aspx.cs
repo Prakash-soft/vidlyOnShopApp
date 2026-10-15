@@ -13,5 +13,25 @@ namespace ELibraryManagement
         {
 
         }
+        //add
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+        //update
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+
+        }
+        //delete
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+
+        }
+        //Go search
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

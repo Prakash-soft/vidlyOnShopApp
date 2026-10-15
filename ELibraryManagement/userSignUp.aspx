@@ -49,10 +49,10 @@
 
                         <div class="row">
                             <div class="col-md-6">
-                                <label>Contact Name</label>
+                                <label>Contact No</label>
                                 <div class="form-group">
                                     <asp:TextBox class="form-control" ID="TextBox5" runat="server"
-                                        placeholder="Name" TextMode="Number"></asp:TextBox>
+                                        placeholder="con no." TextMode="Number"></asp:TextBox>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -121,7 +121,7 @@
                                 <label>User ID</label>
                                 <div class="form-group">
                                     <asp:TextBox class="form-control" ID="TextBox11" runat="server"
-                                        placeholder="member ID"></asp:TextBox>
+                                        placeholder="member ID" OnTextChanged="TextBox11_TextChanged"></asp:TextBox>
                                 </div>
                             </div>
                             <div class="col-md-4">
@@ -143,7 +143,7 @@
                         <div class="row">
                             <div class="form-group d-grid gap-2 mt-3">
                                 <asp:Button class="btn btn-success btn-lg" ID="Button1" runat="server"
-                                    Text="Sign Up" />
+                                    Text="Sign Up" OnClick="Button1_Click" />
                             </div>
                         </div>
 
