@@ -66,12 +66,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="adminLogin.aspx" />
+    <Content Include="book_inventory\book_5.jpg" />
+    <Content Include="book_inventory\book_6.jpg" />
+    <Content Include="book_inventory\book_7.jpg" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\js\bootstrap.bundle.min.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\popper.min.js" />
     <Content Include="css\CustomStyleSheet1.css" />
     <Content Include="datatables\css\datatables.min.css" />
+    <Content Include="datatables\js\datatables.js" />
     <Content Include="datatables\js\datatables.min.js" />
     <Content Include="fontawesome\css\all.css" />
     <Content Include="fontawesome\css\all.min.css" />
@@ -5884,7 +5888,7 @@
     <Content Include="imgs\adminLogin.jpg" />
     <Content Include="imgs\adminLoginImage.jpg" />
     <Content Include="imgs\author.jpg" />
-    <Content Include="imgs\book1.png" />
+    <Content Include="book_inventory\book1.png" />
     <Content Include="imgs\generalUser.png" />
     <Content Include="imgs\homeBookLibrary1.jpg" />
     <Content Include="imgs\homeBookLibrary3.jpg" />

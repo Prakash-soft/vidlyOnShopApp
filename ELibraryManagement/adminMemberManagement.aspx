@@ -1,6 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="adminMemberManagement.aspx.cs" Inherits="ELibraryManagement.WebForm7" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $(".table").prepend($("<thead></thead>").append($(this).find("tr:first"))).dataTable();
+    });
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container-fluid">
@@ -38,8 +43,8 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <asp:TextBox class="form-control" ID="TextBox3" runat="server"></asp:TextBox>
-                                        <asp:Button class="btn btn-info" ID="Button2" runat="server"
-                                            Text="Go" />
+                                        <asp:LinkButton class="btn btn-info" ID="LinkButton4" runat="server"
+                                            Text="Go" OnClick="LinkButton4_Click"><i class="fas fa-search"></i></asp:LinkButton>
                                     </div>
                                 </div>
                             </div>
@@ -55,11 +60,11 @@
                                     <div class="input-group">
                                         <asp:TextBox class="form-control me-1" ID="TextBox8" runat="server" ReadOnly="True"></asp:TextBox>
                                         <asp:LinkButton class="btn btn-success me-1" ID="LinkButton1"
-                                            runat="server"><i class="fa-solid fa-circle-check"></i></asp:LinkButton>
+                                            runat="server" OnClick="LinkButton1_Click"><i class="fa-solid fa-circle-check"></i></asp:LinkButton>
                                         <asp:LinkButton class="btn btn-warning me-1" ID="LinkButton2"
-                                            runat="server"><i class="fa-solid fa-pause"></i></asp:LinkButton>
+                                            runat="server" OnClick="LinkButton2_Click"><i class="fa-solid fa-pause"></i></asp:LinkButton>
                                         <asp:LinkButton class="btn btn-danger me-1" ID="LinkButton3"
-                                            runat="server"><i class="fa-solid fa-xmark"></i></asp:LinkButton>
+                                            runat="server" OnClick="LinkButton3_Click"><i class="fa-solid fa-xmark"></i></asp:LinkButton>
                                     </div>
                                 </div>
                             </div>
@@ -123,8 +128,8 @@
                             <div class="row">
                                 <div class="col-6 gap-2 mb-1 mx-auto">
                                     <div class="form-group d-grid">
-                                        <asp:Button class="btn btn-danger btn-block" ID="Button3" runat="server"
-                                            Text="Delete User Permanently" />
+                                        <asp:LinkButton class="btn btn-danger btn-block" ID="LinkButton5" runat="server"
+                                            Text="Delete User Permanently" OnClick="LinkButton5_Click"></asp:LinkButton>
                                     </div>
                                 </div>
                             </div>
@@ -172,8 +177,18 @@
                         </div>
                         <div class="row">
                             <div class="col">
+                                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:eLibraryDBConnectionString %>" SelectCommand="SELECT * FROM [member_master_tbl]"></asp:SqlDataSource>
                                 <asp:GridView class="table table-striped table-bordered" ID="GridView1"
-                                    runat="server">
+                                    runat="server" AutoGenerateColumns="False" DataKeyNames="member_id" DataSourceID="SqlDataSource1">
+                                    <Columns>
+                                        <asp:BoundField DataField="member_id" HeaderText="Member id" ReadOnly="True" SortExpression="member_id" />
+                                        <asp:BoundField DataField="full_name" HeaderText="Name" SortExpression="full_name" />
+                                        <asp:BoundField DataField="account_status" HeaderText="Account Status" SortExpression="account_status" />
+                                        <asp:BoundField DataField="contact_no" HeaderText="Contact No" SortExpression="contact_no" />
+                                        <asp:BoundField DataField="email" HeaderText="Email Id" SortExpression="email" />
+                                        <asp:BoundField DataField="state" HeaderText="State" SortExpression="state" />
+                                        <asp:BoundField DataField="city" HeaderText="City" SortExpression="city" />
+                                    </Columns>
                                 </asp:GridView>
                             </div>
                         </div>
