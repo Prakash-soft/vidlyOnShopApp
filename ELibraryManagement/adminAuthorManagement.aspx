@@ -82,6 +82,7 @@
             </div>
             <br>
             <a href="homePage.aspx"><< Back to Home</a><asp:Button ID="Button5" runat="server" Text="Button" />
+                <asp:Button ID="Button6" runat="server" Text="Button" />
                 <br>
             <br>
         </div>
