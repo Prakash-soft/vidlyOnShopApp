@@ -29,7 +29,6 @@ namespace ELibraryManagement
             {
                 addNewAuthor();
             }
-
         }
         //update
         protected void Button3_Click(object sender, EventArgs e)
@@ -42,7 +41,6 @@ namespace ELibraryManagement
             {
                 Response.Write("<script> alert('Author id not exist');</script>");
             }
-
         }
         //delete
         protected void Button4_Click(object sender, EventArgs e)
